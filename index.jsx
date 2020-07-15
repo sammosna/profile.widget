@@ -14,7 +14,6 @@ height: 100vh;
 
 const profileInner = css``
 
-
 const profilePic = css`
   width: 100px;
   height: 100px;
@@ -36,7 +35,6 @@ const profileName = css`
 
 
 export const render = ({ output }) => (
-//   <h1 className={test}>{output}</h1>
     <div className={profileContaienr}>
         <div className={profileInner}>
             <img className={profilePic} src="/profile.widget/profile.jpg" alt=""/>
