@@ -1,6 +1,6 @@
 import { css } from "uebersicht"
 
-export const command = "finger `whoami` | awk -F: '{ print $3 }' | head -n1 | sed 's/^ // '"
+export const command = "id -F"
 
 export const refreshFrequency = false
 
